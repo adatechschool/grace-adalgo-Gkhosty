@@ -15,7 +15,7 @@ const operator = '+'
 
 calculator(x, y, operator) => return 5
 */
-export const calculator = (x, y, operator) => {
+export const calculator = (x, y, operator) => d{
   if (operator === "+"){
     return x + y
   };
