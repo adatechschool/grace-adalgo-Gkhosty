@@ -1,6 +1,6 @@
-import {expect, test} from "vitest";
-import {simple} from "./0-simple";
+import { expect, test  } from "vitest";
+import { simple } from "./0-simple.js";
 
-test("Chick if the simple function work", () => {
-    expect(simple()).toBe(`J'❤️ les tests`);
+test("si ça marech", () => {
+    expect(simple()).toBe("J'❤️ les tests")
 })

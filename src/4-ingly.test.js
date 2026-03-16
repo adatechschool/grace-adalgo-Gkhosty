@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { ingly } from './4-ingly'
+import { ingly } from './4-ingly.js'
 
 
 describe("ingly", () => {

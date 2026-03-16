@@ -23,15 +23,15 @@ export const ingly = (word) => {
 
   if (lowerWord.endsWith("ing")) {
     if (lowerWord === word) {
-      return word + "ly";      // mot en minuscule
+      return word + "ly";      
     } else {
-      return word + "LY";      // mot en majuscule
+      return word + "LY";      
     }
   } else {
     if (lowerWord === word) {
-      return word + "ing";     // mot en minuscule
+      return word + "ing";     
     } else {
-      return word + "ING";     // mot en majuscule
+      return word + "ING";     
     }
   }
 };

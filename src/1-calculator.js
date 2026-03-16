@@ -16,15 +16,17 @@ const operator = '+'
 calculator(x, y, operator) => return 5
 */
 export const calculator = (x, y, operator) => {
-    if (operator === "+") {
-        return x + y;
-    } else if (operator === "-") {
-        return x - y;
-    } else if (operator === "*") {
-        return x * y;
-    } else if (operator === "/") {
-        return x / y;
-    } else {
-        throw new Error(`Invalid operator: ${operator}`);
-    }
+  if (operator === "+"){
+    return x + y
+  };
+  if (operator === "-"){
+    return x-y 
+  };
+  if (operator === "*"){
+    return x * y 
+  };
+  if (operator === "/"){
+    return x / y 
+  };
+  throw new Error("operateur ça ne marche pas")
 }
